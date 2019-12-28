@@ -4,7 +4,7 @@ PIP ?= $(PYTHON) -m pip
 
 help: Makefile
 	@echo
-	@echo " Choose a command run in Krypton:"
+	@echo " Choose a command run in Krypton Actions:"
 	@echo
 	@sed -n 's/^##//p' $< | column -t -s ':' |  sed -e 's/^/ /'
 	@echo

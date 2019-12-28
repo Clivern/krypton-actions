@@ -1,14 +1,14 @@
-name: Krypton
+name: krypton-actions
 
 on:
   issues:
     types: [opened, edited]
 
 jobs:
-  Krypton:
+  krypton-actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Krypton
-        uses: clivern/krypton@master
+      - name: krypton-actions
+        uses: clivern/krypton-actions@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

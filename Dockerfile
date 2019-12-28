@@ -1,11 +1,11 @@
 FROM python:3.6
 
-LABEL "com.github.actions.name"="Krypton"
-LABEL "com.github.actions.description"="Awesome Actions to use on GitHub"
-LABEL "com.github.actions.icon"="zap"
+LABEL "com.github.actions.name"="krypton-actions"
+LABEL "com.github.actions.description"="Workflow Automation Actions for GitHub"
+LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="red"
 
-LABEL "repository"="https://github.com/Clivern/Krypton"
+LABEL "repository"="https://github.com/Clivern/krypton-actions"
 LABEL "homepage"="http://github.com/clivern"
 LABEL "maintainer"="Clivern <hello@clivern.com>"
 
