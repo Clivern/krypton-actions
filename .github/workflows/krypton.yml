@@ -5,7 +5,7 @@ on:
     types: [opened, edited]
 
 jobs:
-  krypton_actions:
+  Krypton:
     runs-on: ubuntu-latest
     steps:
       - name: Krypton
