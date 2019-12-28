@@ -4,7 +4,7 @@
     <p align="center">Workflow Automation Actions for GitHub.</p>
     <p align="center">
         <a href="https://travis-ci.org/Clivern/krypton-actions"><img src="https://travis-ci.org/Clivern/krypton-actions.svg?branch=master"></a>
-        <a href="https://github.com/Clivern/krypton-actions/releases"><img src="https://img.shields.io/badge/Version-0.2.0-red.svg"></a>
+        <a href="https://github.com/Clivern/krypton-actions/releases"><img src="https://img.shields.io/badge/Version-0.2.1-red.svg"></a>
         <a href="https://github.com/Clivern/krypton-actions/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-Apache--2.0-orange.svg"></a>
     </p>
 </p>
