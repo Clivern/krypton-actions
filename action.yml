@@ -1,8 +1,9 @@
 # action.yml
 name: 'krypton-actions'
 description: 'Workflow Automation Actions for GitHub'
-icon: 'package'
-color: 'red'
+branding:
+  icon: 'package'
+  color: 'red'
 
 runs:
   using: 'docker'
