@@ -1,15 +1,6 @@
 # action.yml
 name: 'Krypton'
 description: 'Awesome Actions to use on GitHub'
-inputs:
-  modules:
-    description: 'Modules to Enable'
-    required: true
-    default:
-      - all
-
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.modules }}
