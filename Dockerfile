@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.8
 
 LABEL "com.github.actions.name"="Krypton"
 LABEL "com.github.actions.description"="Awesome Actions to use on GitHub"
