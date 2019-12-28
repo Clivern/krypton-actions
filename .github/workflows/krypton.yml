@@ -10,5 +10,9 @@ jobs:
     steps:
       - name: Krypton
         uses: clivern/krypton@master
+        with:
+          modules:
+            - all
+            - extra
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
