@@ -1,7 +1,7 @@
 FROM python:3.6
 
 LABEL "com.github.actions.name"="krypton-actions"
-LABEL "com.github.actions.description"="Workflow Automation Actions for GitHub"
+LABEL "com.github.actions.description"="Open Source Workflow Automation"
 LABEL "com.github.actions.icon"="package"
 LABEL "com.github.actions.color"="red"
 

@@ -12,7 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .celery import app as celery_app
+# Local Library
+from app.modules.util.helpers import Helpers
 
 
-__all__ = (celery_app)
+class Correlation():
+
+    def __init__(self, get_response):
+        self.__helpers = Helpers()
+        self.get_response = get_response
+
+    def __call__(self, request):
+        request.META["X-Correlation-ID"] = self.__helpers.generate_uuid()
+
+        response = self.get_response(request)
+
+        return response

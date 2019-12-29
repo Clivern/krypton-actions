@@ -1,6 +1,6 @@
 # action.yml
 name: 'krypton-actions'
-description: 'Workflow Automation Actions for GitHub'
+description: 'Open Source Workflow Automation'
 branding:
   icon: 'package'
   color: 'red'

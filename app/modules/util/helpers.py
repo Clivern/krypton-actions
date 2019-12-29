@@ -12,7 +12,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .celery import app as celery_app
+# Standard Library
+import logging
+import uuid
 
 
-__all__ = (celery_app)
+class Helpers():
+
+    def __init__(self):
+        self.__loggers = {}
+
+    def get_logger(self, name=__name__):
+        if name in self.__loggers:
+            return self.__loggers[name]
+        self.__loggers[name] = logging.getLogger(name)
+        return self.__loggers[name]
+
+    def generate_uuid(self):
+        return str(uuid.uuid4())

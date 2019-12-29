@@ -12,7 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .celery import app as celery_app
+from django.urls import path
+
+# Local Library
+from app.controllers.web.home import Home
 
 
-__all__ = (celery_app)
+urlpatterns = [
+    path('', Home.as_view(), name='app.web.home'),
+]

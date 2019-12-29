@@ -1,7 +1,7 @@
 <p align="center">
-    <img alt="Krypton Actions Logo" src="https://raw.githubusercontent.com/Clivern/krypton-actions/master/assets/img/logo.png" height="100" />
+    <img alt="Krypton Actions Logo" src="https://raw.githubusercontent.com/Clivern/krypton-actions/master/assets/images/logo.png" height="100" />
     <h3 align="center">Krypton Actions</h3>
-    <p align="center">Workflow Automation Actions for GitHub.</p>
+    <p align="center">Open Source Workflow Automation</p>
     <p align="center">
         <a href="https://travis-ci.org/Clivern/krypton-actions"><img src="https://travis-ci.org/Clivern/krypton-actions.svg?branch=master"></a>
         <a href="https://github.com/Clivern/krypton-actions/releases"><img src="https://img.shields.io/badge/Version-0.2.1-red.svg"></a>
@@ -43,4 +43,4 @@ We are an open source, community-driven project so please feel free to join us. 
 
 © 2019, Clivern. Released under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-**Clivern** is authored and maintained by [@Clivern](https://github.com/clivern).
+**Krypton-Actions** is authored and maintained by [@Clivern](https://github.com/clivern).

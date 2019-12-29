@@ -16,13 +16,19 @@ matrix:
   - python: "3.5"
   - python: "3.5-dev"
   - python: "3.8-dev"
-  - python: "3.8"
   - python: "nightly"
 
 # command to install dependencies
 install:
   - make config
+  - make create-env
+  - make migrate
+  - pip install coveralls
 
 # command to run tests
 script:
   - make ci
+
+# Push the results back to coveralls
+after_success:
+  - coveralls

@@ -12,7 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .celery import app as celery_app
 
+class MissingArgument(Exception):
+    """Missing Argument Custom Exception"""
 
-__all__ = (celery_app)
+    def __init__(self, message, error_info={}):
+        Exception.__init__(self, message)
+        self.error_info = error_info

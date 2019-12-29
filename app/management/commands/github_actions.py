@@ -12,7 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .celery import app as celery_app
+from django.core.management.base import BaseCommand, CommandError
 
 
-__all__ = (celery_app)
+class Command(BaseCommand):
+    help = 'Github Actions Run'
+
+    def add_arguments(self, parser):
+        pass
+
+    def handle(self, *args, **options):
+        print("Krypton!")

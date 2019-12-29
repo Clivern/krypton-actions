@@ -12,7 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .celery import app as celery_app
-
-
-__all__ = (celery_app)
+from .ping import *                    # noqa: F401 F403

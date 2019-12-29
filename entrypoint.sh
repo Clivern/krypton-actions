@@ -8,4 +8,4 @@ echo "\n\n"
 # Krypton Configs
 cat $GITHUB_WORKSPACE/.krypton.yml 2>/dev/null
 
-python /krypton/app.py
+python /krypton/manage.py github_actions
