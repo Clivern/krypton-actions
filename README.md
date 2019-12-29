@@ -11,11 +11,40 @@
 
 ## Documentation
 
-### Installation:
+#### Krypton as a Github Action:
+
+To install krypton github action, add the following to your `workflow.yml`.
+
+```yml
+name: workflow_name
+
+on:
+    # may vary based on modules enabled
+    
+jobs:
+  krypton-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 # required to clone your code
+      - name: krypton-actions
+        uses: clivern/krypton-actions@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Then add `.krypton.yml` to your repository root directory. This file to configure the enabled krypton modules and their settings. It should look like:
+
+```yml
+modules:
+  - "first_issue"
+```
+
+#### Krypton as a Github Bot:
 
 ```
 #
 ```
+
 
 ## Versioning
 
