@@ -16,7 +16,6 @@ RUN mkdir /krypton
 COPY . /krypton
 
 RUN chmod +x /krypton/entrypoint.sh
-RUN chmod +x /krypton/app.py
 
 WORKDIR /krypton
 
