@@ -23,12 +23,7 @@ install:
   - make config
   - make create-env
   - make migrate
-  - pip install coveralls
 
 # command to run tests
 script:
   - make ci
-
-# Push the results back to coveralls
-after_success:
-  - coveralls
