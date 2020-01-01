@@ -11,7 +11,7 @@ LABEL "maintainer"="Clivern <hello@clivern.com>"
 
 ENV PYTHONUNBUFFERED 1
 
-RUN git clone --depth=1 --branch=master https://github.com/silverbackhq/krypton.git /krypton
+RUN git clone --depth=1 --branch=1.0.0-alpha.1 https://github.com/silverbackhq/krypton.git /krypton
 
 RUN rm -rf /krypton/.git
 
