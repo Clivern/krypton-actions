@@ -11,9 +11,11 @@ LABEL "maintainer"="Clivern <hello@clivern.com>"
 
 ENV PYTHONUNBUFFERED 1
 
-RUN mkdir /krypton
+RUN git clone --depth=1 --branch=master https://github.com/silverbackhq/krypton.git /krypton
 
-COPY . /krypton
+RUN rm -rf /krypton/.git
+
+COPY entrypoint.sh /krypton
 
 RUN chmod +x /krypton/entrypoint.sh
 
