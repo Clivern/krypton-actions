@@ -1,8 +1,0 @@
-{% extends 'layouts/base.html' %}
-{% load static %}
-{% load i18n %}
-
-{% block content %}
-    <img src="{% static 'images/logo.png' %}" style="height: 120px;">
-    <p><a href="javascript:history.back()">{% trans "404" %}</a> {% trans "Page Not Found" %}</p>
-{% endblock %}

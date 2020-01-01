@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Krypton Actions Logo" src="https://raw.githubusercontent.com/Clivern/krypton-actions/master/assets/images/logo.png" height="100" />
+    <img alt="Krypton Actions Logo" src="https://raw.githubusercontent.com/silverbackhq/krypton/master/assets/images/logo.png" height="100" />
     <h3 align="center">Krypton Actions</h3>
     <p align="center">Open Source Workflow Automation</p>
     <p align="center">
@@ -7,10 +7,6 @@
         <a href="https://github.com/Clivern/krypton-actions/releases"><img src="https://img.shields.io/badge/Version-0.3.0-red.svg"></a>
         <a href="https://github.com/Clivern/krypton-actions/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-Apache--2.0-orange.svg"></a>
     </p>
-</p>
-
-<p align="center">
-        <a href="https://heroku.com/deploy" target="_blank"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 </p>
 
 
@@ -42,12 +38,6 @@ Then add `.krypton.yml` to your repository root directory. This file to configur
 ```yml
 modules:
   - "first_issue"
-```
-
-#### Krypton as a Github Bot:
-
-```
-#
 ```
 
 
