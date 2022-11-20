@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.11
 
 LABEL "com.github.actions.name"="krypton-actions"
 LABEL "com.github.actions.description"="Open Source Workflow Automation"
