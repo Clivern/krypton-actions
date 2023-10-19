@@ -8,7 +8,7 @@ jobs:
   krypton-actions:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2 # required
+      - uses: actions/checkout@v4 # required
       - name: krypton-actions
         uses: clivern/krypton-actions@master
         env:
