@@ -2,7 +2,7 @@ repo_name: Clivern/krypton-actions
 report_id: a8c2659555a982a869e45e1926067bd9
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-21T15:24:56+00:00'
+timestamp: '2024-01-05T08:18:44+00:00'
 requested_by: Clivern
 provider: github
 branch: master
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Clivern/krypton-actions/blob/master/Dockerfile
   detection_source: Dockerfile
   last_updated_by: renovate[bot]
   last_updated_on: 2019-12-30 14:00:11.000000000 Z
@@ -29,6 +30,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Clivern/krypton-actions
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -38,6 +40,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Clivern/krypton-actions
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -47,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Clivern/krypton-actions/blob/master/.github/workflows/krypton.yml
   detection_source: ".github/workflows/krypton.yml"
   last_updated_by: Clivern
   last_updated_on: 2019-12-28 22:59:28.000000000 Z
@@ -59,6 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/Clivern/krypton-actions/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Clivern
   last_updated_on: 2019-12-28 20:55:31.000000000 Z
@@ -71,4 +76,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Clivern/krypton-actions
   detection_source: Repo Metadata
